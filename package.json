@@ -1,0 +1,24 @@
+{
+  "name": "unicam",
+  "version": "1.0.0",
+  "description": "World Kli video presence platform",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RANISio/Unicam.git"
+  },
+  "keywords": [
+    "WebRTC",
+    "Mediasoup",
+    "SFU"
+  ],
+  "author": "Ranis Eisen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RANISio/Unicam/issues"
+  },
+  "homepage": "https://github.com/RANISio/Unicam#readme"
+}
