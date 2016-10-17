@@ -24,6 +24,7 @@ Start the videobridge with:
 ```
 
 Options can be:
+```sh
 --secret - sets the shared secret used to authenticate to the XMPP server
 --domain - sets the XMPP domain (default: none)
 --min-port - sets the min port used for media (default: 10001)
@@ -32,7 +33,6 @@ Options can be:
 --port - sets the port of the XMPP server (default: 5275)
 --subdomain - sets the sub-domain used to bind JVB XMPP component (default: jitsi-videobridge)
 --apis - where APIS is a comma separated list of APIs to enable. Currently supported APIs are 'xmpp' and 'rest'. The default is 'xmpp'.
-
 ```
 Or autostart it by adding the line in `/etc/rc.local`:
 ```sh
