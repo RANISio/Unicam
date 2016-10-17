@@ -18,6 +18,18 @@ In the user home that will be starting Jitsi Videobridge create `.sip-communicat
 org.jitsi.impl.neomedia.transform.srtp.SRTPCryptoContext.checkReplay=false
 ```
 
+Other setup options:
+ * **org.jitsi.videobridge.rest.jetty.port** - 
+ Specifies the port on which the REST API of Videobridge is to be served over HTTP. The default value is 8080.
+ * **org.jitsi.videobridge.rest.jetty.sslContextFactory.keyStorePassword** - 
+ Specifies the keystore password to be utilized when the REST API of Videobridge is served over HTTPS.
+ * **org.jitsi.videobridge.rest.jetty.sslContextFactory.keyStorePath** - 
+ Specifies the keystore path to be utilized when the REST API of Videobridge is served over HTTPS.
+ * **org.jitsi.videobridge.rest.jetty.sslContextFactory.needClientAuth** - 
+ Specifies whether client certificate authentication is to be required when the REST API of Videobridge is served over HTTPS.
+ * **org.jitsi.videobridge.rest.jetty.tls.port** - 
+ Specifies the port on which the REST API of Videobridge is to be served over HTTPS. The default value is 8443.
+
 Start the videobridge with:
 ```sh
 ./jvb.sh --host=localhost --domain=jitsi.example.com --port=5347 --secret=YOURSECRET1 &
