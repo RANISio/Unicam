@@ -1,0 +1,17 @@
+body, html { padding: 0; margin: 0; height: 100%; background-color: #000; }
+
+.video-container { 
+	display: flex; 
+	flex-direction: row; 
+	flex-wrap: wrap; 
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: 100%;
+}
+
+.video-container video {
+	min-width: 20%;
+/*	height: 0px;
+	padding-top: 56.25%;*/
+}

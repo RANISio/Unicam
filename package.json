@@ -2,9 +2,8 @@
   "name": "unicam",
   "version": "1.0.0",
   "description": "World Kli video presence platform",
-  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon --debug src/server/index.js 8080 --exec babel-node --presets es2015"
   },
   "repository": {
     "type": "git",
@@ -16,9 +15,18 @@
     "SFU"
   ],
   "author": "Ranis Eisen",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/RANISio/Unicam/issues"
   },
-  "homepage": "https://github.com/RANISio/Unicam#readme"
+  "homepage": "https://github.com/RANISio/Unicam#readme",
+  "dependencies": {
+    "express": "^4.14.0",
+    "ws": "^1.1.1"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.16.0",
+    "babel-preset-es2015": "^6.16.0",
+    "nodemon": "^1.11.0"
+  }
 }
